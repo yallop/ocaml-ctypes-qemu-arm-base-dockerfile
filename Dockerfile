@@ -11,5 +11,5 @@ ENV OPAMYES=1
 
 RUN opam init
 RUN opam switch 4.02.3
-RUN opam config exec -- opam install ocamlfind ounit
+RUN opam config exec -- opam install ocamlfind ounit integers
 
