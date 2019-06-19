@@ -14,3 +14,4 @@ RUN opam init --bare --disable-sandboxing
 RUN opam switch create --solver=mccs 4.02.3
 RUN opam config exec -- opam install ocamlfind ounit integers.0.3.0
 
+RUN apt-get --yes install libncurses-dev
